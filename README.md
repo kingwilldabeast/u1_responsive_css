@@ -43,29 +43,7 @@ The main code we want to use in our CSS looks something like this:
 
 ## 1. Setup
 
-To experiment with responsive design, open up a new HTML/CSS file and paste the following HTML into the body:
-
-```html
-<body>
-
-  <header>
-    <h1> Responsive CSS</h1>
-  </header>
-
-  <nav id="navbar">  
-    <button> Login </button>
-    <button> Register </button>
-    <button> Sign Out </button>
-  </nav>
-
-  <div>
-    <img id="dog1" src="./assets/dog1.jpeg">
-    <img id="dog2" src="./assets/dog2.jpeg">
-  </div>
-
-  
-</body>
-```
+To experiment with responsive design, lets examine our HTML and CSS files - We have 4 buttons, and 2 images. One image has a display of Block, one has a display of None. Lets see what we can do with these
 
 
 
