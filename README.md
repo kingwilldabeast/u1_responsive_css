@@ -43,7 +43,7 @@ The main code we want to use in our CSS looks something like this:
 
 ## 1. Setup
 
-To experiment with responsive design, lets examine our HTML and CSS files - We have 4 buttons, and 2 images. One image has a display of Block, one has a display of None. Lets see what we can do with these
+To experiment with responsive design, lets examine our HTML and CSS files - We have 4 buttons, and 2 images. One image has a display of Block, one has a display of None. Let's see what we can do with these!
 
 
 
