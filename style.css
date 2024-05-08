@@ -11,3 +11,49 @@ img{
 #dog2 {
     display: none
 }
+
+body {
+    background-color: red;
+}
+
+@media screen and (max-width:800px) {
+    body {
+        background-color: aqua;
+    }
+
+    h1 {
+        color: orangered;
+        letter-spacing: 3px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    h1{
+        color: darkgreen;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    nav {
+        /* display: flex; */
+        flex-direction: column;
+
+    }
+        img{
+            width: 70%;
+            margin: 4rem;
+        }
+
+}
+
+@media screen and (max-width: 400px) {
+    .test {
+        justify-content: center;
+    }
+}
